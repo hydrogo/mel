@@ -2,11 +2,13 @@ name: mel
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
-  - numpy
+  - python=3
+  - numpy=>1.16
   - pandas
   - matplotlib
   - seaborn
   - scikit-learn
   - catboost
+  - eli5
+  - shap
   - jupyter
